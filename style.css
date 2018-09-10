@@ -1,0 +1,95 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	background: #000;
+	text-transform: uppercase;
+	color: #fff;
+}
+#main{
+	padding: 0;
+	margin: 0;
+	padding-top: 0vh;
+	height: 44vh;
+	width: 100%
+}
+#board{
+	padding: 0;
+	margin: auto;
+	height: 33vh;
+	width: 33vh;
+}
+h1{
+	padding: 0px;
+	font-size: 90px;
+	color: #21FF0D;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	margin-left: -288px;
+}
+
+h1:hover{
+	background-color: #33f;
+	color: #f33;	
+}
+
+#r{
+	display: inline-block;
+	background: #000;
+	color: #fff;
+	font-size: 2vh;
+	text-align: center;
+	width: 32.5vh;
+	line-height: 3vh;
+}
+
+#r:hover{
+	background: #fff;
+	color: #000
+}
+
+.block{
+	padding:0;
+	margin: 50px auto;
+	margin:0.5vh;
+	height:10vh;
+	width:10vh;
+	line-height:10vh;
+	vertical-align:middle;
+	text-align:center;
+	font-size:0;
+	border-radius:5px;
+	color: #000;
+	background:#fff;
+	cursor:pointer;
+	float:left;
+}
+
+.block:hover{
+	background: #33a;
+	color: #fff;
+}
+
+.Button{
+	margin:0.5vh;
+	padding:0;
+	height:5vh;
+	width:32vh;
+	line-height:5vh;
+	vertical-align:	middle;
+	background: #fff;
+	color: #000;
+	font-size: 2vh;
+	text-align:center;
+	border-radius:5px;
+	cursor:pointer;
+	float:left;
+}
+
+.Button:hover{
+	background: #f00;
+	color: #fff
+}
